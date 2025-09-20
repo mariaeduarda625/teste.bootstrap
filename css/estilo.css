@@ -1,0 +1,20 @@
+/* 
+PaleVioletRed	#DB7093	(219,112,147)
+LightPink	#FFB6C1	(255,182,193)
+Pink	#FFC0CB	(255,192,203)
+LightCoral	#F08080	(240,128,128)
+IndianRed	#CD5C5C	(205,92,92) */
+
+
+.logo{
+    width: 15%;
+}
+.fundomenu{
+    background-color: rgb(175, 187, 238);
+}
+.minhafonte{
+    font-size: 1.2em;
+}
+.h1meu{
+    text-align: center;
+}
