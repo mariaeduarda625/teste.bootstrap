@@ -201,7 +201,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #FFB6C1;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -4560,7 +4560,7 @@ textarea.form-control-lg {
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(65,105,225);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(205,92,92);
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: var(--bs-primary-text-emphasis);
@@ -4574,9 +4574,9 @@ textarea.form-control-lg {
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
-  color: var(--bs-accordion-btn-color);
+  color: white
   text-align: left;
-  background-color: var(--bs-accordion-btn-bg);
+  background-color:#DB7093 ;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -4589,7 +4589,7 @@ textarea.form-control-lg {
 }
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
-  background-color: rgb(30,144,255);
+  background-color: rgb(255,192,203);
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 .accordion-button:not(.collapsed)::after {

@@ -10,11 +10,42 @@ IndianRed	#CD5C5C	(205,92,92) */
     width: 15%;
 }
 .fundomenu{
-    background-color: rgb(175, 187, 238);
+    background-color: rgb(219,112,147);
 }
 .minhafonte{
     font-size: 1.2em;
 }
 .h1meu{
     text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.h2meu{
+    text-align: center;
+    font-size: 1.7em;
+}
+.imgminha{
+    width: 100%;
+    
+}
+.borda{
+    border-color:rgb(240,128,128);
+    border-width: 3px;
+}
+.espaço{
+    margin-top: 2%;
+}
+.btncor{
+    background-color:#DB7093;
+    color:white;
+    text-align: center;
+}
+.fontcor{
+    color:#CD5C5C;
+}
+.cardaltura{
+    height: 100%;
+}
+.imgtam{
+    width: 20%;
 }
