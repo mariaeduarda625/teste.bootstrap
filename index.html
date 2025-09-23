@@ -48,10 +48,7 @@
             </div>
         </nav>
     </header>
-    
-   
-   
-      
+
     <main class="my-4  container ">
        <section id="sobre">
         <h1 class="h1meu" >Sobre</h1>
@@ -116,6 +113,7 @@
             
         </div>
        </section>
+
       <section id="competencias">
         <h1 class="h1meu ">Competências Socioemocionais</h1>
         <div class="container text-center">
@@ -196,17 +194,21 @@
         </div>  
 
       </section> 
+
       <h1 class="h1meu">Projetos</h1>
+
       <section id="teatro">
         <div class="container text-center espaço ">
-          <h1>Teatro</h1>
+          <h1 class="h1meu">Teatro</h1>
             <div class="row align-items-center imgminha">
               <div class="col-12 col-md-6 ">
                 <div class="card borda">
                     <div class="card-body ">
                       <h5 class="card-title fontcor">Teatro </h5>
                       <p class="card-text">Este foi um dos meus primeiros trabalhos na Etec MCM. Realizei a apresentação da peça "O Auto da Barca do Inferno"</p>
-                      <a href="#" class="btn btncor">Saiba Mais</a>
+                       <!-- Botão que abre a modal -->
+                       <button type="button" class="btn btncor" data-bs-toggle="modal" data-bs-target="#modalteatro">Saiba Mais
+                      </button>
                     </div>
                 </div>
               </div>
@@ -215,41 +217,104 @@
               </div>
             </div>  
         </div>
+
+       <!-- Modal -->
+        <div class="modal fade" id="modalteatro" tabindex="-1" aria-labelledby="modalLabelteatro" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalLabelteatro">Mais sobre o Teatro</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis magni omnis asperiores est ipsum molestias hic quod accusamus repellat quasi, excepturi, dolorem, quis atque aut totam quisquam architecto earum!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btncor" data-bs-dismiss="modal">Fechar</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section> 
-      <section id="fotonov">
-        <h1 class="h1meu">Foto novela</h1>
+
+     <section id="fotonov">
+        <h1 class="h1meu">Fotonovela</h1>
+
+        <!-- Card -->
         <div class="card text-center borda espaço">
           <div class="card-body">
-            <h5 class="card-title fontcor">Foto novela</h5>
-            <p class="card-text">A fotonovela foi um trabalho em que tivemos que fazer gravações e edições, além de pensar nos personagem do contexto do nosso conto.</p>
-            <a href="#" class="btn btncor">Saiba Mais</a>
+            <h5 class="card-title fontcor">Fotonovela</h5>
+            <p class="card-text">
+              A fotonovela foi um trabalho em que tivemos que fazer gravações e edições,
+              além de pensar nos personagens do contexto do nosso conto.
+            </p>
+            <!-- Botão que abre a modal -->
+            <button type="button" class="btn btncor" data-bs-toggle="modal" data-bs-target="#modalFotonovela">
+              Saiba Mais
+            </button>
           </div>
-          
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalFotonovela" tabindex="-1" aria-labelledby="modalLabelFotonovela" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalLabelFotonovela">Mais sobre a Fotonovela</h1>
+                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Fechar"></button>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint iusto consectetur est reprehenderit optio cum esse odio dolore voluptatibus accusamus quam ut quidem libero sed saepe, nostrum enim eaque iste!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btncor" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section > <!----DOIS CARDS-->
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0 ">
-            <div id="teatro" class="card espaço text-center borda cardaltura">
-              <div class="card-body ">
-                <h5 class="card-title fontcor ">Teatro</h5>
-                <p class="card-text h1meu ">Este foi um dos meus primeiros trabalhos na Etec MCM. Realizei a apresentação da peça "O Auto da Barca do Inferno"</p>
-                <a href="teste.html" class="btn btncor">Saiba mais</a>
-              </div>
-            </div>
+      
+      
+      <section id="primeirosite">
+        <h1 class="h1meu">Primeiro Site</h1>
+        <div class="row align-items-center mb-4">
+          <!-- Imagem -->
+          <div class="col-12 col-md-6">
+            <img src="img2/sitesuits.png" class="img-fluid rounded" alt="Imagem do site">
           </div>
-          <div class="col-sm-6 ">
-            <div id="fotonov" class="card espaço text-center borda cardaltura">
-              <div class="card-body ">
-                <h5 class="card-title fontcor ">Fotonovela</h5>
-                <p class="card-text ">A fotonovela foi um trabalho em que tivemos que fazer gravações e edições, além de pensar nos personagem do contexto do nosso conto.</p>
+          <!-- Card -->
+          <div class="col-12 col-md-6">
+            <div id="teatro" class="card espaço text-center borda cardaltura">
+              <div class="card-body">
+                <h5 class="card-title fontcor">Primeiro Site</h5>
+                <p class="card-text">Aqui você terá acesso ao meu primeiro site, criado na aula de Interfaces Web na Etec MCM</p>
                 <a href="teste.html" class="btn btncor">Saiba mais</a>
               </div>
             </div>
           </div>
         </div>
-       
-      </section> 
+
+        <h1 class="h1meu">Imagens Photoshop</h1>
+        <div class="row align-items-center">
+          <!-- Card -->
+          <div class="col-12 col-md-6">
+            <div id="imagensphot" class="card espaço text-center borda cardaltura">
+              <div class="card-body">
+                <h5 class="card-title fontcor">Imagens Photoshop</h5>
+                <p class="card-text">A fotonovela foi um trabalho em que tivemos que fazer gravações e edições, além de pensar nos personagens do contexto do nosso conto.</p>
+                <a href="teste.html" class="btn btncor">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+          <!-- Imagem -->
+          <div class="col-12 col-md-6">
+            <img src="img2/imsPhotoshop/meninas.png" class="img-fluid rounded" alt="Imagem photoshop">
+          </div>
+        </div>
+      </section>
+
        
       
     </main>
