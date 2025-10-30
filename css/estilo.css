@@ -1,55 +1,35 @@
-/* 
-PaleVioletRed	#DB7093	(219,112,147)
-LightPink	#FFB6C1	(255,182,193)
-Pink	#FFC0CB	(255,192,203)
-LightCoral	#F08080	(240,128,128)
-IndianRed	#CD5C5C	(205,92,92) */
+/* Azul (#4AB1E0) — referência ao Sulley
+Verde (#8DD33F) — referência ao Mike
+Roxo claro (#A786C9) — para detalhes ou botões */
 
+.preta{
+    color:  #212529;
+}
+.circle-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #4AB1E0; /* azul de Monstros S.A. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
 
-.logo{
-    width: 15%;
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.fundomenu{
-    background-color: rgb(219,112,147);
+
+.modal-grande {
+  max-width: 90%; /* ou 1000px, se quiser fixo */
+  margin-top: 15%;
 }
-.minhafonte{
-    font-size: 1.2em;
-}
-.h1meu{
-    text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    color: white;
-}
-.h2meu{
-    text-align: center;
-    font-size: 1.7em;
-}
-.imgminha{
-    width: 100%;
-    
-}
-.borda{
-    border-color:rgb(240,128,128);
-    border-width: 3px;
-}
-.espaço{
-    margin-top: 2%;
-}
-.btncor{
-    background-color:#DB7093;
-    color:white;
-    text-align: center;
-}
-.fontcor{
-    color:#CD5C5C;
-}
-.cardaltura{
-    height: 100%;
-}
-.imgtam{
-    width: 20%;
-}
-.tamanho{
-   
+
+.modal-grande .modal-content {
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: ;
 }
