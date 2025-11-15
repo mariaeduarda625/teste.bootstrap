@@ -22,14 +22,80 @@ Roxo claro (#A786C9) — para detalhes ou botões */
   height: 100%;
   object-fit: cover;
 }
-
-.modal-grande {
-  max-width: 90%; /* ou 1000px, se quiser fixo */
-  margin-top: 15%;
+.bntcor{
+  background-color:#4AB1E0;
+}
+.footer{
+  background-color:#4ab1e0;
+}
+header.pers {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../img/Personagens/fundopers.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.imgpers {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
 }
 
-.modal-grande .modal-content {
-  padding: 30px;
-  border-radius: 20px;
-  margin-top: ;
+.desc {
+    font-size: 18px;
+    line-height: 1.5;
 }
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 769px) {
+    .row {
+        display: flex;
+        flex-direction: column !important; /* Imagem em cima, texto embaixo */
+        align-items: center;
+        text-align: center;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imgpers {
+        max-width: 300px; /* Ajusta o tamanho da imagem para celular */
+    }
+
+    .desc {
+        font-size: 16px;
+        text-align: center !important; /* Centraliza o texto no celular */
+        margin-top: 10px;
+    }
+}
+
+
